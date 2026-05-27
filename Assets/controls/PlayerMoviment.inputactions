@@ -1,0 +1,97 @@
+{
+    "version": 1,
+    "name": "PlayerMoviment",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "6e9d74f7-0d1c-47e3-aecf-e2f63ee067ce",
+            "actions": [
+                {
+                    "name": "movimento player",
+                    "type": "Value",
+                    "id": "5b8469fd-48bc-4f30-8de4-1b2371cd4eab",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "movimento pulo",
+                    "type": "Button",
+                    "id": "02a6ada1-59a7-43a7-bad3-0e19fbd982e9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "atirar",
+                    "type": "Button",
+                    "id": "c5874744-2126-4ddf-86bf-c775a65e90d2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "f9ad6637-3ee6-45df-8483-6ac55483383c",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movimento player",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "eeb9d5ce-ea74-4530-ba5f-3aa1a1a4c237",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movimento player",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "fa3290c8-b4af-4b8b-b3a8-f167488c7b10",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movimento player",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "e472b5d3-6ddd-4194-85d7-7d086511a0d5",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movimento pulo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b794bc9-b978-486e-b06d-8bcc98bc2a4f",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "atirar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
